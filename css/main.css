@@ -2016,7 +2016,7 @@ textarea.form-control {
     font-size: 0.8571em;
     text-transform: uppercase; }
   .progress-container .progress {
-    height: 1px;
+    
     border-radius: 0;
     box-shadow: none;
     background: rgba(222, 222, 222, 0.8);
@@ -2038,9 +2038,10 @@ textarea.form-control {
   .progress-container.progress-neutral .progress-badge {
     color: #FFFFFF; }
   .progress-container.progress-primary .progress {
-    background: rgba(55, 140, 63, 0.4); }
+    background: none; }
   .progress-container.progress-primary .progress-bar {
-    background: #378C3F; }
+    background: none;
+  display: none; }
   .progress-container.progress-primary .progress-value,
   .progress-container.progress-primary .progress-badge {
     color: #378C3F; }
@@ -5198,7 +5199,7 @@ Created using IcoMoon - icomoon.io
     transition: transform 2s ease-in-out;
     transform-origin: 0% 0%; }
   .progress-container .progress {
-    height: 5px;
+  
     font-size: 18px; }
   .progress-container .aos-animate {
     transform: scaleX(1); }
